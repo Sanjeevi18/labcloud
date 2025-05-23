@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Destinations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="mainContent">
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Tourism Management System</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <button class="menu-btn" onclick="toggle()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Search -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Amazing Destinations</h2>
+            <input type="text" id="search" placeholder="Search places to visit...">
+        </div>
+    </section>
+
+    <!-- Places to Visit Section -->
+    <section class="places">
+        <div class="place-item">
+            <img src="images/paris.jpg" alt="Paris">
+            <h3>Paris, France</h3>
+            <p>Explore the city of love and the iconic Eiffel Tower.</p>
+        </div>
+
+        <div class="place-item">
+            <img src="images/maldives.jpg" alt="Maldives">
+            <h3>Maldives</h3>
+            <p>Relax in the crystal-clear waters and luxury resorts.</p>
+        </div>
+
+        <div class="place-item">
+            <img src="images/newyork.jpg" alt="New York">
+            <h3>New York, USA</h3>
+            <p>Experience the hustle and bustle of the Big Apple.</p>
+        </div>
+    </section>
+
+    <!-- Sidebar for Packages -->
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">×</button>
+        <h2 class="sidebar-title">Tour Packages</h2>
+        <ul class="package-list">
+            <li><a href="hotel.html">HOTELS</a></li>
+            <li><a href="places.html">PLACES</a></li>
+            <li><a href="adventure.html">ADVENTURE</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
